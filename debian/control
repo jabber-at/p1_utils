@@ -1,0 +1,17 @@
+Source: erlang-p1-utils
+Section: libs
+Priority: optional
+Maintainer: Philipp Huebner <debalance@debian.org>
+Build-Depends: debhelper (>= 9), dh-rebar
+Standards-Version: 3.9.5
+Homepage: https://github.com/processone/p1_utils
+
+
+Package: erlang-p1-utils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, erlang-base | ${erlang-abi:Depends},
+         ${erlang:Depends}
+Description: set of small Erlang libraries
+ The libraries in this package were written for ejabberd which still
+ uses them. They were split off into their own project to follow
+ Erlang/OTP guidelines.

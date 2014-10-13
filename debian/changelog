@@ -1,0 +1,5 @@
+erlang-p1-utils (0.2014.08.25-1) unstable; urgency=medium
+
+  * Initial release (Closes: #759255)
+
+ -- Philipp Huebner <debalance@debian.org>  Wed, 27 Aug 2014 22:54:21 +0200
