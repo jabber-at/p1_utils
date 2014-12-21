@@ -1,6 +1,9 @@
 erlang-p1-utils (0.2014.11.28-1) unstable; urgency=medium
 
-      * Imported Upstreeam version 0.2014.11.28
+  * Maintaining this package in https://apt.jabber.at.
+  * Imported Upstreeam version 0.2014.11.28
+  * Added dpkg-dev as build-dependency.
+  * Add VCS-* fields in debian/control.
 
  -- Mathias Ertl <mati@jabber.at>  Sun, 21 Dec 2014 12:32:43 +0100
 
