@@ -1,3 +1,9 @@
+erlang-p1-utils (0.2014.11.28-0.1) unstable; urgency=medium
+
+  * Imported Upstreeam version 0.2015.11.24.
+
+ -- Mathias Ertl <mati@jabber.at>  Sun, 29 Nov 2015 18:25:06 +0100
+
 erlang-p1-utils (0.2014.11.28-1) unstable; urgency=medium
 
   * Maintaining this package in https://apt.jabber.at.
