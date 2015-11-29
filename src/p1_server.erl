@@ -17,7 +17,8 @@
 %% %CopyrightEnd%
 %%
 %% The code has been modified and improved by ProcessOne.
-%% Copyright 2007-2014, ProcessOne
+%%
+%% Copyright 2007-2015   ProcessOne
 %%
 %%  The change adds the following features:
 %%   - You can send exit(priority_shutdown) to the p1_fsm process to
@@ -927,7 +928,13 @@ debug_options(Name, Opts) ->
     end.
 
 dbg_options(Name, []) ->
-    Opts = [log, statistics],
+    Opts = 
+	case init:get_argument(generic_debug) of
+	    error ->
+		[];
+	    _ ->
+		[log, statistics]
+	end,
     dbg_opts(Name, Opts);
 dbg_options(Name, Opts) ->
     dbg_opts(Name, Opts).
