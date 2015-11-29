@@ -1,6 +1,8 @@
 erlang-p1-utils (0.2015.11.24-0.1) unstable; urgency=medium
 
   * Imported Upstreeam version 0.2015.11.24.
+  * Use 0.1 as debian revision so any official packages will be used instead
+    of this package.
 
  -- Mathias Ertl <mati@jabber.at>  Sun, 29 Nov 2015 18:25:06 +0100
 
