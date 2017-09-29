@@ -3,40 +3,77 @@ Upstream-Name: erlang-p1-utils
 Source: https://github.com/processone/p1_utils
 
 Files: *
-Copyright: 2002-2014 ProcessOne
-           2008-2014 Alexey Shchepin <alexey@process-one.net>
-           2010-2014 Evgeniy Khramtsov <ekhramtsov@process-one.net>
-License: GPL-2+
-
-Files: src/p1_fsm.erl src/p1_server.erl
-Copyright: 1996-2014 Ericsson AB
-           2007-2014 ProcessOne
-License: EPL-1.1
+Copyright: 2002-2017 ProcessOne
+           2008-2017 Alexey Shchepin <alexey@process-one.net>
+           2010-2017 Evgeniy Khramtsov <ekhramtsov@process-one.net>
+           2010-2017 Emilio Bustos <ebustos@process-one.net>
+           2015-2017 Paweł Chmielowski <pawel@process-one.net>
+           2015-2017 Mickael Remond <mremond@process-one.net>
+License: Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ On Debian systems, the full text of the Apache License version 2.0
+ can be found in the file
+ `/usr/share/common-licenses/Apache-2.0'.
 
 Files: debian/*
-Copyright: 2014 Philipp Huebner <debalance@debian.org>
+Copyright: 2014-2017 Philipp Huebner <debalance@debian.org>
+           2014-2017 Mathias Ertl <mati@jabber.at> 
 License: GPL-2+
-
-License: GPL-2+
- This package is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License, or
- (at your option) any later version.
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of the
+ License, or (at your option) any later version.
  .
- This package is distributed in the hope that it will be useful,
+ This program is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ General Public License for more details.
  .
  You should have received a copy of the GNU General Public License
- along with this program. If not, see <http://www.gnu.org/licenses/>
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+ 02111-1301 USA
  .
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: p1_sip
-Source: https://github.com/processone/p1_sip
+ On Debian systems, the full text of the GNU General Public
+ License version 2 can be found in the file
+ `/usr/share/common-licenses/GPL-2'.
 
+Files: src/p1_edoc_layout.erl
+Copyright: 2001-2006 Richard Carlsson <carlsson.richard@gmail.com>
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as
+ published by the Free Software Foundation; either version 2 of the
+ License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+ 02111-1301 USA
+ .
+ On Debian systems, the full text of the GNU Lesser General Public
+ License version 2 can be found in the file
+ `/usr/share/common-licenses/LGPL-2'.
+
+Files: src/p1_fsm.erl src/p1_server.erl src/p1_time_compat.erl
+Copyright: 1996-2017 Ericsson AB
+           2007-2017 ProcessOne
 License: EPL-1.1
  The contents of this file are subject to the Erlang Public License,
  Version 1.1, (the "License"); you may not use this file except in

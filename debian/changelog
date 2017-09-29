@@ -5,6 +5,7 @@ erlang-p1-utils (1.0.10-0.1) unstable; urgency=medium
   * Merge changes to debian/rules from upstream.
   * Also install documentation.
   * Run eunit during build.
+  * Update copyright file.
 
  -- Mathias Ertl <mati@jabber.at>  Fri, 29 Sep 2017 19:31:25 +0200
 
