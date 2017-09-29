@@ -3,12 +3,11 @@ Section: libs
 Priority: optional
 Maintainer: Mathias Ertl <mati@jabber.at>
 XSBC-Orig-Maintainer: Philipp Huebner <debalance@debian.org>
-Build-Depends: debhelper (>= 9), dh-rebar, dpkg-dev (>= 1.16.1~), erlang-syntax-tools
+Build-Depends: debhelper (>= 9), dh-rebar, erlang-base, erlang-crypto, erlang-eunit, erlang-syntax-tools
 Standards-Version: 4.0.0
 Homepage: https://github.com/processone/p1_utils
 VCS-Git: https://github.com/jabber-at/p1_utils.git
 VCS-Browser: https://github.com/jabber-at/p1_utils
-
 
 Package: erlang-p1-utils
 Architecture: any
