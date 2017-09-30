@@ -7,6 +7,7 @@ erlang-p1-utils (1.0.10-0.1) unstable; urgency=medium
   * Run eunit during build.
   * Update copyright file.
   * Update build dependencies.
+  * Disable coverage so we can build on Ubuntu Zesty.
 
  -- Mathias Ertl <mati@jabber.at>  Fri, 29 Sep 2017 19:31:25 +0200
 
