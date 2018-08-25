@@ -1,0 +1,9 @@
+Document: erlang-p1-utils
+Title: P1 Erlang Utils
+Author: ProcessOne [web site: http://www.process-one.net]
+Abstract: This is a set of Erlang utilities used in other ProcessOne projects.
+Section: Programming
+
+Format: HTML
+Index: /usr/share/doc/erlang-p1-utils/doc/index.html
+Files: /usr/share/doc/erlang-p1-utils/doc/*
