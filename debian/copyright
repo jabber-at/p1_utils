@@ -1,14 +1,14 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: erlang-p1-utils
 Source: https://github.com/processone/p1_utils
 
 Files: *
-Copyright: 2002-2017 ProcessOne
-           2008-2017 Alexey Shchepin <alexey@process-one.net>
-           2010-2017 Evgeniy Khramtsov <ekhramtsov@process-one.net>
-           2010-2017 Emilio Bustos <ebustos@process-one.net>
-           2015-2017 Paweł Chmielowski <pawel@process-one.net>
-           2015-2017 Mickael Remond <mremond@process-one.net>
+Copyright: 2002-2018 ProcessOne
+           2008-2018 Alexey Shchepin <alexey@process-one.net>
+           2010-2018 Evgeniy Khramtsov <ekhramtsov@process-one.net>
+           2010-2018 Emilio Bustos <ebustos@process-one.net>
+           2015-2018 Paweł Chmielowski <pawel@process-one.net>
+           2015-2018 Mickael Remond <mremond@process-one.net>
 License: Apache-2.0
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
@@ -27,8 +27,8 @@ License: Apache-2.0
  `/usr/share/common-licenses/Apache-2.0'.
 
 Files: debian/*
-Copyright: 2014-2017 Philipp Huebner <debalance@debian.org>
-           2014-2017 Mathias Ertl <mati@jabber.at> 
+Copyright: 2014-2018 Philipp Huebner <debalance@debian.org>
+           2014-2018 Mathias Ertl <mati@jabber.at> 
 License: GPL-2+
  This program is free software; you can redistribute it and/or
  modify it under the terms of the GNU General Public License as
@@ -72,8 +72,8 @@ License: LGPL-2+
  `/usr/share/common-licenses/LGPL-2'.
 
 Files: src/p1_fsm.erl src/p1_server.erl src/p1_time_compat.erl
-Copyright: 1996-2017 Ericsson AB
-           2007-2017 ProcessOne
+Copyright: 1996-2018 Ericsson AB
+           2007-2018 ProcessOne
 License: EPL-1.1
  The contents of this file are subject to the Erlang Public License,
  Version 1.1, (the "License"); you may not use this file except in
