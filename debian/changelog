@@ -6,6 +6,7 @@ erlang-p1-utils (1.0.12-0.1) unstable; urgency=medium
   * Switched to debhelper 11
   * Updated years in debian/copyright
   * Install docs
+  * Updated Standards-Version: 4.1.4 (no changes needed)
 
  -- Mathias Ertl <mati@jabber.at>  Sat, 25 Aug 2018 13:11:50 +0200
 
