@@ -2,11 +2,13 @@ erlang-p1-utils (1.0.12-0.1) unstable; urgency=medium
 
   * New upstream version 1.0.12
   * Added debian/upstream/metadata
+  * Updated Standards-Version: 4.1.4 (no changes needed)
   * Use secure copyright format uri in debian/copyright
   * Switched to debhelper 11
+  * Set Orig-Maintainer: Ejabberd Packaging Team <ejabberd@packages.debian.org>
   * Updated years in debian/copyright
+  * (Build-)Depend on erlang-base (>= 1:19.2)
   * Install docs
-  * Updated Standards-Version: 4.1.4 (no changes needed)
 
  -- Mathias Ertl <mati@jabber.at>  Sat, 25 Aug 2018 13:11:50 +0200
 
