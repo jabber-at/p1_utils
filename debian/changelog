@@ -1,3 +1,9 @@
+erlang-p1-utils (1.0.13-0.1) unstable; urgency=medium
+
+  * New upstream version 1.0.13
+
+ -- Mathias Ertl <mati@jabber.at>  Mon, 01 Oct 2018 18:00:42 +0200
+
 erlang-p1-utils (1.0.12-0.1) unstable; urgency=medium
 
   * New upstream version 1.0.12
